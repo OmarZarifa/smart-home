@@ -13,7 +13,6 @@ export function useUserData() {
 
   const updateUserData = (newData) => {
     setUserData(newData);
-    // Here you would typically make an API call to update the user data
     console.log("Updating user data:", newData);
   };
 
