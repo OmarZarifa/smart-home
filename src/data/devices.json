@@ -1,0 +1,84 @@
+{
+  "devices": [
+    {
+      "id": 1,
+      "name": "Living Room TV",
+      "type": "tv",
+      "status": "on",
+      "room": "Living Room",
+      "brand": "Samsung",
+      "model": "Smart TV 4K",
+      "connectedAt": "2024-03-15"
+    },
+    {
+      "id": 2,
+      "name": "Kitchen Fridge",
+      "type": "refrigerator",
+      "status": "on",
+      "room": "Kitchen",
+      "brand": "LG",
+      "model": "Smart Cooling",
+      "connectedAt": "2024-03-10"
+    },
+    {
+      "id": 3,
+      "name": "Bedroom AC",
+      "type": "ac",
+      "status": "off",
+      "room": "Bedroom",
+      "brand": "Daikin",
+      "model": "Inverter Pro",
+      "connectedAt": "2024-02-28"
+    },
+    {
+      "id": 4,
+      "name": "Smart Speaker",
+      "type": "speaker",
+      "status": "on",
+      "room": "Living Room",
+      "brand": "Sonos",
+      "model": "One",
+      "connectedAt": "2024-03-01"
+    },
+    {
+      "id": 5,
+      "name": "Robot Vacuum",
+      "type": "vacuum",
+      "status": "on",
+      "room": "All Rooms",
+      "brand": "Roomba",
+      "model": "i7+",
+      "connectedAt": "2024-03-12"
+    },
+    {
+      "id": 6,
+      "name": "Security Camera",
+      "type": "camera",
+      "status": "off",
+      "room": "Entrance",
+      "brand": "Arlo",
+      "model": "Pro 4",
+      "connectedAt": "2024-03-01"
+    },
+    {
+      "id": 7,
+      "name": "Back Door Lock",
+      "type": "door",
+      "status": "on",
+      "room": "Back Door",
+      "brand": "August",
+      "model": "Smart Lock Pro",
+      "connectedAt": "2024-03-05"
+    },
+    {
+      "id": 8,
+      "name": "Air Purifier",
+      "type": "air_purifier",
+      "status": "on",
+      "room": "Bedroom",
+      "brand": "Dyson",
+      "model": "Pure Cool",
+      "connectedAt": "2024-03-08"
+    }
+  ]
+}

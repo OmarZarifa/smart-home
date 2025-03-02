@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Good Morning",
+    "icon": "sun",
+    "active": false
+  },
+  {
+    "id": 2,
+    "name": "Good Night",
+    "icon": "moon",
+    "active": false
+  },
+  {
+    "id": 3,
+    "name": "Away",
+    "icon": "door",
+    "active": false
+  },
+  {
+    "id": 4,
+    "name": "Security",
+    "icon": "shield",
+    "active": true
+  }
+]

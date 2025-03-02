@@ -1,0 +1,111 @@
+{
+  "rooms": [
+    {
+      "id": 1,
+      "name": "Living Room",
+      "type": "living",
+      "floor": "Ground Floor",
+      "connectedDevices": 4,
+      "description": "Main family living space",
+      "lights": true,
+      "temperature": 72,
+      "devices": [1, 6]
+    },
+    {
+      "id": 2,
+      "name": "Kitchen",
+      "type": "kitchen",
+      "floor": "Ground Floor",
+      "connectedDevices": 6,
+      "description": "Modern kitchen with island",
+      "lights": false,
+      "temperature": 70,
+      "devices": [2, 5]
+    },
+    {
+      "id": 3,
+      "name": "Master Bedroom",
+      "type": "bedroom",
+      "floor": "First Floor",
+      "connectedDevices": 3,
+      "description": "Primary bedroom suite",
+      "lights": false,
+      "temperature": 68,
+      "devices": [3]
+    },
+    {
+      "id": 4,
+      "name": "Guest Bathroom",
+      "type": "bathroom",
+      "floor": "Ground Floor",
+      "connectedDevices": 2,
+      "description": "Ground floor guest bathroom",
+      "lights": false,
+      "temperature": 72,
+      "devices": []
+    },
+    {
+      "id": 5,
+      "name": "Home Office",
+      "type": "office",
+      "floor": "First Floor",
+      "connectedDevices": 4,
+      "description": "Work from home space",
+      "lights": true,
+      "temperature": 72,
+      "devices": [8]
+    },
+    {
+      "id": 6,
+      "name": "Kids Bedroom",
+      "type": "bedroom",
+      "floor": "First Floor",
+      "connectedDevices": 2,
+      "description": "Children's bedroom",
+      "lights": false,
+      "temperature": 70,
+      "devices": []
+    },
+    {
+      "id": 7,
+      "name": "Garage",
+      "type": "other",
+      "floor": "Ground Floor",
+      "connectedDevices": 3,
+      "description": "Two-car garage with storage",
+      "lights": false,
+      "temperature": 68,
+      "devices": [7]
+    },
+    {
+      "id": 8,
+      "name": "Dining Room",
+      "type": "living",
+      "floor": "Ground Floor",
+      "connectedDevices": 2,
+      "description": "Formal dining area",
+      "lights": true,
+      "temperature": 72,
+      "devices": []
+    }
+  ],
+  "roomTypes": [
+    { "value": "living", "label": "Living Room" },
+    { "value": "kitchen", "label": "Kitchen" },
+    { "value": "bedroom", "label": "Bedroom" },
+    { "value": "bathroom", "label": "Bathroom" },
+    { "value": "office", "label": "Home Office" },
+    { "value": "dining", "label": "Dining Room" },
+    { "value": "laundry", "label": "Laundry Room" },
+    { "value": "garage", "label": "Garage" },
+    { "value": "basement", "label": "Basement" },
+    { "value": "other", "label": "Other" }
+  ],
+  "floorOptions": [
+    "Basement",
+    "Ground Floor",
+    "First Floor",
+    "Second Floor",
+    "Attic"
+  ]
+}
