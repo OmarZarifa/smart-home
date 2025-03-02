@@ -1,12 +1,12 @@
 import React, { useState } from "react";
+import voiceCommandsData from "../data/voiceCommands.json";
 import { RiMicLine, RiInformationLine, RiSettings4Line } from "react-icons/ri";
-import aiData from "../data/ai.json";
 
 function VoiceRecognition() {
   const [isListening, setIsListening] = useState(false);
   const [showCommands, setShowCommands] = useState(false);
   const [settings, setSettings] = useState({
-    language: aiData.settings.language,
+    language: voiceCommandsData.settings.language,
   });
 
   const handleSettingChange = (setting, value) => {
@@ -60,7 +60,7 @@ function VoiceRecognition() {
                   Available Commands
                 </h3>
                 <ul className="space-y-1.5">
-                  {aiData.availableCommands.map((command, index) => (
+                  {voiceCommandsData.availableCommands.map((command, index) => (
                     <li
                       key={index}
                       className="text-blue-800 text-sm flex items-center gap-2"
@@ -79,7 +79,7 @@ function VoiceRecognition() {
                 <span>Recent Commands</span>
                 <span>Status</span>
               </div>
-              {aiData.voiceCommands.map((command) => (
+              {voiceCommandsData.voiceCommands.map((command) => (
                 <div
                   key={command.id}
                   className="flex items-center justify-between p-4 bg-gray-50/50 rounded-xl hover:bg-gray-50 transition-colors duration-200"

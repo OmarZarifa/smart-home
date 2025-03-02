@@ -1,0 +1,35 @@
+{
+  "voiceCommands": [
+    {
+      "id": 1,
+      "command": "Turn on living room lights",
+      "timestamp": "2 minutes ago",
+      "status": "success"
+    },
+    {
+      "id": 2,
+      "command": "Set temperature to 22°C",
+      "timestamp": "10 minutes ago",
+      "status": "success"
+    },
+    {
+      "id": 3,
+      "command": "Lock all doors",
+      "timestamp": "1 hour ago",
+      "status": "success"
+    }
+  ],
+  "settings": {
+    "wakeWord": "Hey Home",
+    "language": "English",
+    "commandHistory": true
+  },
+  "availableCommands": [
+    "Turn on/off [room] lights",
+    "Set temperature to [value]",
+    "Lock/unlock all doors",
+    "Show me [room] camera",
+    "Set [room] temperature to [value]",
+    "Close/open [room] blinds"
+  ]
+}
