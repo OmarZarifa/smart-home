@@ -5,10 +5,7 @@ const initialUserData = {
   email: "john.doe@example.com",
   avatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=John",
   role: "Home Owner",
-  notifications: true,
   darkMode: false,
-  language: "English",
-  timezone: "UTC-5",
 };
 
 export function useUserData() {
